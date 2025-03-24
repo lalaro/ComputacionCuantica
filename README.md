@@ -63,7 +63,7 @@ Usamos [SemVer](http://semver.org/) para el versionado.
 
 ## Autor
 
-* **Laura Valentina Rodríguez Ortegón** - *Computación Cuántica * - [Repositorio](https://github.com/lalaro/CompuacionCuantica.git)
+* **Laura Valentina Rodríguez Ortegón** - * Computación Cuántica * - [Repositorio](https://github.com/lalaro/CompuacionCuantica.git)
 
 ## Licencia
 
