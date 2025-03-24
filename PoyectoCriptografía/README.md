@@ -32,7 +32,7 @@ Para ejecutar este proyecto, necesitarás:
 
 Para clonar el proyecto 
 
-git clone  ´ https://github.com/lalaro/CompuacionCuantica/tree/299b0c7a7287cfdbf282b0243776dd3ad3d88fbc/PoyectoCriptograf%C3%ADa ´
+git clone  ´ https://github.com/lalaro/ComputacionCuantica/tree/c7b188bf5203e3c37a885f3f9dc6e4c40b35e0b1/PoyectoCriptograf%C3%ADa ´
 
 Instalar los paquetes necesarios
 
@@ -63,7 +63,7 @@ Usamos [SemVer](http://semver.org/) para el versionado.
 
 ## Autor
 
-* **Laura Valentina Rodríguez Ortegón** - * Criptografía y Seguridad * - [Repositorio](https://github.com/lalaro/CompuacionCuantica/tree/299b0c7a7287cfdbf282b0243776dd3ad3d88fbc/PoyectoCriptograf%C3%ADa)
+* **Laura Valentina Rodríguez Ortegón** - *Criptografía y Seguridad* - [Repositorio](https://github.com/lalaro/ComputacionCuantica/tree/c7b188bf5203e3c37a885f3f9dc6e4c40b35e0b1/PoyectoCriptograf%C3%ADa)
 
 ## Licencia
 
