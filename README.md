@@ -1,47 +1,57 @@
-# Lab 8 AREP / LLM Chain
+# Computación Cuántica
 
-Este documento proporciona una guía detallada sobre el uso de LLMChain en LangChain para construir cadenas de procesamiento con modelos de lenguaje (LLMs).
+Este repositorio explora los conceptos fundamentales de la computación cuántica, incluyendo algoritmos cuánticos y aplicaciones en criptografía. Utiliza Jupyter Notebooks como herramienta principal para el desarrollo y la simulación de circuitos cuánticos.
+
+# Contenidos
+
+El material cubre los siguientes temas:
+
+1. Introducción a la Computación Cuántica
+
+2. Principios básicos de los qubits y puertas cuánticas
+
+3. Algoritmo de Shor: Factorización de números primos
+
+4. Algoritmo de Grover: Búsqueda en bases de datos no estructuradas
+
+5. Criptografía cuántica y protocolos de comunicación segura
+
+6. Simulaciones de circuitos cuánticos en Jupyter
+
+# Requisitos
+
+Para ejecutar este proyecto, necesitarás:
+
+- Python 3.8
+
+- Jupyter Notebook
+
+- Bibliotecas de computación cuántica como qiskit o cirq
+
+# Instalación
 
 Para clonar el proyecto 
 
-git clone  ´ https://github.com/lalaro/Taller8AREP.git ´
+git clone  ´ https://github.com/lalaro/CompuacionCuantica.git ´
 
-### Prerrequisitos
+Instalar los paquetes necesarios
 
-Se necesita instalar las siguientes herramientas antes de comenzar:
+´ pip install jupyter qiskit cirq numpy matplotlib ´
 
-1. Python 3.8 o superior.
+Iniciar Jupyter Notebook 
 
-2. OpenAI API Key (u otra API compatible con LangChain).
+´ jupyter notebook ´
 
-3. Instalar LangChain y dependencias necesarias con:
+# Uso
 
-` pip install langchain openai `
-
-## Arquitectura
-
-![image1.jpeg](images/image1.jpeg)
-
-Esta arquitectura representa el flujo de una LLM Chain, un sistema basado en modelos de lenguaje grandes (LLM) para responder consultas de los usuarios de manera estructurada. El proceso comienza cuando el usuario envía una query, que puede ser una pregunta o una solicitud de información. Luego, esta consulta pasa por un Prompt Template, que la estructura para que el modelo de lenguaje la procese de manera más eficiente. A partir de esto, se genera un structured text, que es una versión más clara y organizada del input original.
-
-Este texto estructurado se envía al LLM, que recibe la consulta y, si el sistema lo permite, también obtiene un contexto relevante adicional para mejorar la respuesta. Con esta información, el LLM genera una respuesta basada en la consulta y el contexto disponible. Finalmente, la respuesta es devuelta al usuario.
-
-Este flujo es típico de los sistemas LLM Chain, pero si se complementa con información recuperada desde una base de datos vectorial (Vector DB, como Pinecone), se convierte en una arquitectura RAG (Retrieval-Augmented Generation), que permite enriquecer las respuestas con información más precisa y actualizada.
-
-## Uso de LLMChain
-
-Para ejecutar la cadena y obtener una respuesta del modelo de lenguaje:
-
-```python
-response = chain.run("inteligencia artificial")
-print(response)
-```
+Abre los notebooks en Jupyter y sigue las instrucciones dentro de cada archivo para ejecutar los experimentos y simulaciones.
 
 ## Construido con
 
-* [LangChain]() - Framework para construir aplicaciones con LLMs.
-* [OpenAI](https://platform.openai.com/docs/concepts) - API para modelos de lenguaje.
+* [Jupyter Notebook](https://docs.jupyter.org/en/latest/) - Entorno interactivo para computación y visualización.
 * [Python](https://docs.python.org/3/) - Lenguaje de programación.
+* [Qiskit](https://www.ibm.com/quantum/qiskit) - Framework para computación cuántica.
+* [Cirq](https://pypi.org/project/cirq/) - Biblioteca de Google para simulaciones cuánticas.
 
 ## Contribuyendo
 
@@ -51,9 +61,9 @@ Por favor, lee [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b2467940295
 
 Usamos [SemVer](http://semver.org/) para el versionado.
 
-## Autores
+## Autor
 
-* **Laura Valentina Rodríguez Ortegón** - *Lab8 AREP LLM * - [Repositorio](https://github.com/lalaro/Taller8AREP.git)
+* **Laura Valentina Rodríguez Ortegón** - *Computación Cuántica * - [Repositorio](https://github.com/lalaro/CompuacionCuantica.git)
 
 ## Licencia
 
